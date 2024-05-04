@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PH40749_MOB2041</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="add_success">Thêm thành công</string>
+    <string name="add_not_success">Thêm thất bại</string>
+    <string name="delete_success">Xóa thành công</string>
+    <string name="delete_not_success">Xóa thành bại</string>
+    <string name="edit_success">Sửa thành công</string>
+    <string name="edit_not_success">Sửa thất bại</string>
+    <string name="empty_field_warning">Vui lòng nhập đủ thông tin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

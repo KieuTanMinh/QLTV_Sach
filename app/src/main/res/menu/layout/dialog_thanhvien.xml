@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="THÀNH VIÊN"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edt_maTV_thanhvien_dialog"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/edt_hoTen_thanhvien_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ Tên" />
+
+            <EditText
+                android:id="@+id/edt_namSinh_thanhvien_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Năm Sinh"
+                android:inputType="date" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnSave_ql_ThanhVien"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#FF0000"
+                    android:text="LƯU" />
+
+                <Button
+                    android:id="@+id/btnCancle_ql_ThanhVien"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#FF0000"
+                    android:text="HUỶ" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
